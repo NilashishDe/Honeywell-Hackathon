@@ -1,7 +1,3 @@
-# File Name: train_model.py
-# This script cleans the raw data, trains multiple machine learning models,
-# evaluates them, and saves the best-performing model for the app to use.
-
 import pandas as pd
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import classification_report
@@ -139,3 +135,4 @@ def train_and_save_model(file1, file2):
 if __name__ == '__main__':
     # Ensure your Excel files are in the same folder with these exact names
     train_and_save_model(file1='6-9flight.xlsx', file2='9-12flight.xlsx')
+

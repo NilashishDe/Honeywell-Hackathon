@@ -1,7 +1,3 @@
-# File Name: app.py
-# This script runs the interactive web application using Streamlit.
-# It loads the pre-trained model and provides a conversational interface for predictions and insights.
-
 import streamlit as st
 import pandas as pd
 import joblib
@@ -357,3 +353,4 @@ try:
 except FileNotFoundError:
     st.error("Error: The 'cleaned_flight_data.csv' or 'flight_delay_model.joblib' file was not found.")
     st.warning("Please run the 'train_model.py' script first to generate the necessary files.")
+

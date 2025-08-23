@@ -4,4 +4,4 @@ scikit-learn
 xgboost
 spacy==3.7.2
 openpyxl
-plotly.\venv\Scripts\activate
+plotly
